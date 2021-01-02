@@ -62,12 +62,16 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background: var(--primary-color);
-  color: #232323;
+/* background-color: maroon; */
+  background-color: rgba(23, 23, 23, 0.9);
+  color:white;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
+  
   text-decoration: none;
+  border-radius: 10px;
+  
 }
 
 .btn:hover {
