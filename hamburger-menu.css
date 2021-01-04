@@ -227,6 +227,7 @@ body {
   position: relative;
   z-index: 0;
   overflow: hidden;
+  padding : 15px;
 }
 
 .features-container .wave {
