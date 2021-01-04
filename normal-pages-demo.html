@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+	<link rel="stylesheet" href="normal-pages-demo.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>Responsive Navigation Bar</title>
+</head>
+<body>
+	<header>
+		<h1>Integrated Developmental School</h1>
+	</header>
+	<nav>
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Announcements</li></a>
+				<a href="https://idasa.flarum.cloud"><li>Forum</li></a>
+				<a href="#"><li>Admission</li></a>
+				<a href="#"><li>Contact</li></a>
+			</ul>
+			<div class="handle">
+				<p class="menu">Menu</p>
+				<div class="menu_icon">
+			      <div></div>
+			      <div></div>
+			      <div></div>
+		      </div>
+			</div>
+		</nav>
+	<section>
+		<div class="container">
+			<p><center>Nothing here</center></p>
+		</div>
+	</section>
+	<script>
+		$('.handle').on('click', function(){
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
+	<footer>
+		&copy; 2020 Integrated Developmental School
+	</footer>
+	</body>
+</html>
