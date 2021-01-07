@@ -1,3 +1,40 @@
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background-color: #232323;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
 /* CORE STYLES */
 :root {
   --primary-color: rgba(255, 192, 203, 0.3);
@@ -57,6 +94,9 @@ body {
 
 .showcase p {
   font-size: 1.3rem;
+}
+.announcements-text{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn {
@@ -190,8 +230,8 @@ background-color: maroon;
 .menu-wrap .menu > div {
   background: var(--overlay-color);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -342,7 +382,7 @@ max-height: 250px;
   
 }
 .about-text {
-  color: #bc5449 ;
+  color: #ff6c6c ;
   background-color: #232323;
   flex: 2 1 40rem;
   justify-content: space-around;
@@ -392,10 +432,15 @@ footer p{
 
 footer{
   background-color: #232323;
+
+    color: #999999;
+
 }
 #work{
   max-width: 100%;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     /*About section */
