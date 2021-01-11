@@ -718,3 +718,14 @@
       display: flow-root;
     }
   }
+
+
+.google-maps{
+  background-color: #232323;
+}
+  
+#map {
+ 
+  height: 400px;
+  width: 100%;
+}
