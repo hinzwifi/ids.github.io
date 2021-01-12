@@ -126,6 +126,8 @@
   
   .read-more-button-home:hover {
     opacity: 0.7;
+      color: white;
+    text-decoration: none;
   }
   
   /* MENU STYLES */
