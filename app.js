@@ -7,17 +7,13 @@ tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 
-function initMap() {
-    // The location of IDS
-    const IDS = { lat: 8.239889, lng: 124.243552 };
-    // The map, centered at IDS
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 18,
-      center: IDS,
-    });
-    // The marker, positioned at IDS
-    const marker = new google.maps.Marker({
-      position: IDS,
-      map: map,
-    });
-  }
+
+var mymap = L.map('mapid').setView([8.239889, 124.243552], 13);
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'sk.eyJ1IjoiaGluendpZmkiLCJhIjoiY2tqdDkwZm8zMDBqODJ6bzg1dHIwdTlieSJ9.D_mQgMCmCn_cq69GQH8vsw'
+}).addTo(mymap);
