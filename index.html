@@ -1,27 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <title>
-    Integrated Development School
-      </title>
-      <link rel = "icon" type = "image/png" href = "hornets-basic-homepage-logo.png">
-      <link rel = "apple-touch-icon" type = "image/png" href = "hornets-basic-homepage-logo.png">
-      <link rel="stylesheet" href="hamburger-menu.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      
-      <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap" rel="stylesheet"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="beauty.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Integrated Development School
+    </title>
+    <link rel="icon" type="image/png" href="hornets-basic-homepage-logo.png">
+    <link rel="apple-touch-icon" type="image/png" href="hornets-basic-homepage-logo.png">
+    <link rel="stylesheet" href="hamburger-menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beauty.css">
 
-<body>
-  <div class="menu-wrap">
+  </head>
+
+  <body>
+
+    <div class="page-wrapper">
+      <div class="nav-wrapper">
+        
+        <nav class="navbar" style="padding: 0;">
+          <img src="top-bar-logo.png" alt="Company Logo">
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="normal-pages-demo.html" target="_blank">Demo</a></li>
+            <li class="nav-item"><a href="https://idasa.flarum.cloud" target="_blank">Forum</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+            <i class="fas fa-search" id="search-icon"></i>
+            <input class="search-input" type="text" placeholder="Search..">
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- <div class="menu-wrap">
     <input type="checkbox" class="toggler">
     <div class="hamburger"><div></div></div>
     <div class="menu">
@@ -36,57 +61,57 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <header class="showcase">
-    <div class="container showcase-inner">
-      <h1 class="welcome-to-ids">Welcome to IDS</h1>
-      <p>The Hive of the IDS Hornets!</p>
-      <a href="#two" class="read-more-button-home">Read More</a>
+    <header class="showcase">
+      <div class="container showcase-inner">
+        <h1 class="welcome-to-ids">Welcome to IDS</h1>
+        <p>The Hive of the IDS Hornets!</p>
+        <a href="#two" class="read-more-button-home">Read More</a>
 
-    </div>
-  </header>
-  <section class="ragot">
+      </div>
+    </header>
+    <section class="ragot">
       <div class="about">
         <div class="about-image">
           <h5 style="color: white;">STUDENT</h5>
-          <img  class="model-picture" src="ragot.png"  alt="portrait-picture" />
+          <img class="model-picture" src="ragot.png" alt="portrait-picture" />
         </div>
       </div>
-    <div id="#two" class="background-of-blog flex">
-      <h1 class="big-words">Announcements</h1>
-      <div class="blog-card">
-        <div class="meta">
-          <div class="photo" id="first"></div>
-          <ul class="details">
-          <li class="author"><a href="#">author</a></li>
-            <li class="date">Dec. 28, 2020</li>
-            <li class="tags">
-              <ul>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-              </ul>
-            </li>
-          </ul>
+      <div id="#two" class="background-of-blog flex">
+        <h1 class="big-words">Announcements</h1>
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" id="first"></div>
+            <ul class="details">
+              <li class="author"><a href="#">author</a></li>
+              <li class="date">Dec. 28, 2020</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                  <li><a href="#">link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>MSU-IIT releases a memo for the closure of campus for disenfection</h1>
+            <h2>by Marcial Bruckheimer J. Sajonia</h2>
+            <p align="justify">To be vigilant at all times and to follow all safety protocols regarding COVID-19.
+              The heads of MSU-IIT issued Memorandum Order No. 2020-00182-OC for the closure of the campus for the Institute COVID-19
+              task force for disenfection.</p>
+            <p class="read-more">
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
-        <div class="description">
-          <h1>MSU-IIT releases a memo for the closure of campus for disenfection</h1>
-          <h2>by Marcial Bruckheimer J. Sajonia</h2>
-          <p align="justify">To be vigilant at all times and to follow all safety protocols regarding COVID-19.
-            The heads of MSU-IIT issued Memorandum Order No. 2020-00182-OC for the closure of the campus for the Institute COVID-19
-            task force for disenfection.</p>
-          <p class="read-more">
-            <a href="#">Read More</a>
-          </p>
-        </div>
-      </div>
-      <div class="blog-card alt">
-        <div class="meta">
-          <div class="photo" id="second"></div>
-          <ul class="details">
-            <li class="author"><a href="#">author</a></li>
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" id="second"></div>
+            <ul class="details">
+              <li class="author"><a href="#">author</a></li>
               <li class="date">Dec. 11, 2020</li>
               <li class="tags">
                 <ul>
@@ -97,26 +122,26 @@
                 </ul>
               </li>
             </ul>
-        </div>
+          </div>
 
-        <div class="description">
-          <h1>IDS WEBINAR SERIES for Parents</h1>
-          <h2>by Mark Joshua L. Haynes</h2>
-          <p align="justify">
-            To help students and parents adapt the neo-normal.
-            The link of the meet is: meet.google.com/atq-vdii-cda
+          <div class="description">
+            <h1>IDS WEBINAR SERIES for Parents</h1>
+            <h2>by Mark Joshua L. Haynes</h2>
+            <p align="justify">
+              To help students and parents adapt the neo-normal.
+              The link of the meet is: meet.google.com/atq-vdii-cda
             </p>
             <p class="read-more">
-            <a href="#">Read More</a>
-          </p>
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="blog-card">
-        <div class="meta">
-          <div class="photo" id="third"></div>
-          <ul class="details">
-            <li class="author"><a href="#">author</a></li>
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" id="third"></div>
+            <ul class="details">
+              <li class="author"><a href="#">author</a></li>
               <li class="date">Oct. 7, 2020</li>
               <li class="tags">
                 <ul>
@@ -127,135 +152,137 @@
                 </ul>
               </li>
             </ul>
+          </div>
+
+          <div class="description">
+            <h1>IDS Students give tribute to their "unsung heroes"</h1>
+            <h2>by Charles Brian P.Taperla</h2>
+            <p align="justify">
+              IDS Students with the guidance and help of student leaders, produced a book titled "To the Unsung Heroes".
+              For those people who have been the major building blocks of our early years who are often overlooked and forgotten.
+              The book was filled by their heartfelt words of graditude, apologies, and wishes.
+            </p>
+            <p class="read-more">
+              <a href="#">Read More</a>
+            </p>
+          </div>
         </div>
-        
-      <div class="description">
-        <h1>IDS Students give tribute to their "unsung heroes"</h1>
-        <h2>by Charles Brian P.Taperla</h2>
-        <p align="justify">
-          IDS Students with the guidance and help of student leaders, produced a book titled "To the Unsung Heroes".
-          For those people who have been the major building blocks of our early years who are often overlooked and forgotten.
-          The book was filled by their heartfelt words of graditude, apologies, and wishes.
-        </p>
-        <p class="read-more">
-          <a href="#">Read More</a>
-        </p>
+
+      </div>
+    </section>
+
+    </div>
+    <div class="recent-events">
+      <h1 class="recent-events-title">Recent Events</h1>
+      <div class="card-amazing">
+
+        <div class="cards-amazing">
+          <img src="IDS-PALAKASAN.png" alt="portrait1" class="article-picture">
+          <div class="content">
+            <h2 class="article-title">IDS Panag-ambitay 2020</h2>
+            <h4 class="article-date">February 24,2020</h4>
+            <p class="article-one-liner" align="justify">With the shocking and nail-biting win of the Tectonic Pintados, the IDS Panag-ambitay 2020 concludes with a bang and it was filled with joy from all the hives.
+              This pic is too good to be true.</p>
+          </div>
+        </div>
+        <!-- Start of Recent Events -->
+        <div class="cards-amazing">
+          <img src="MrMsIDS.png" alt="portrait2" class="article-picture">
+          <div class="content">
+            <h2 class="article-title">Mr. and Ms. IDS 2020</h2>
+            <h4 class="article-date">February 23,2020</h4>
+            <p class="article-one-liner" align="justify">
+              As the student stars own the night, the pageants continue to show their best traits and showcase their talents.
+              To those participants that have to struggle and successfuly claim the throne after undergoing trials have bore fruit.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="cards-amazing">
+          <img src="CED-IDS-DAYS.png" alt="portrait3" class="article-picture">
+          <div class="content">
+            <h2 class="article-title">CED-IDS PALAKASAN</h2>
+            <h4 class="article-date">January 24,2020</h4>
+            <p class="article-one-liner" align="justify">
+              The burning passion within one's soul ignites durings this competetive times with other competetors and one will try to crush them with their own battling spirit and unwavering soul.
+            </p>
+          </div>
+        </div>
+        <img class="background-picture" src="wave.png" alt="" />
       </div>
     </div>
-  
-  </div>
-</section>
-
-</div>
-  <div class="recent-events">
-    <h1 class="recent-events-title">Recent Events</h1>
-    <div class="card-amazing">
-
-      <div class="cards-amazing">
-        <img src="IDS-PALAKASAN.png" alt="portrait1" class="article-picture">
-        <div class="content">
-          <h2 class="article-title">IDS Panag-ambitay 2020</h2>
-          <h4 class="article-date">February 24,2020</h4>
-          <p class="article-one-liner" align="justify">With the shocking and nail-biting win of the Tectonic Pintados, the IDS Panag-ambitay 2020 concludes with a bang and it was filled with joy from all the hives.
-            This pic is too good to be true.</p>
-        </div>
-      </div>
-  <!-- Start of Recent Events -->
-      <div class="cards-amazing">
-        <img src="MrMsIDS.png" alt="portrait2"  class="article-picture">
-        <div class="content">
-          <h2 class="article-title">Mr. and Ms. IDS 2020</h2>
-          <h4 class="article-date">February 23,2020</h4>
-          <p class="article-one-liner" align="justify">
-            As the student stars own the night, the pageants continue to show their best traits and showcase their talents.
-            To those participants that have to struggle and successfuly claim the throne after undergoing trials have bore fruit.
-
-          </p>
-        </div>
-      </div>
-
-      <div class="cards-amazing" >
-        <img src="CED-IDS-DAYS.png" alt="portrait3" class="article-picture">
-        <div class="content">
-          <h2 class="article-title">CED-IDS PALAKASAN</h2>
-          <h4 class="article-date">January 24,2020</h4>
-          <p class="article-one-liner" align="justify">
-            The burning passion within one's soul ignites durings this competetive times with other competetors and one will try to crush them with their own battling spirit and unwavering soul.
-           </p>
-        </div>
-      </div>
-      <img class="background-picture" src="wave.png" alt="" />
-    </div>
-</div>
-<!-- End of Recent Events -->
+    <!-- End of Recent Events -->
 
 
-      <!-- FOOTER START -->
-      <div class="footer">
+    <!-- FOOTER START -->
+    <div class="footer">
       <div class="contain">
         <div class="col">
-				  <h1>TOOLS and FEATURES<!--section--></h1>
-				  <ul>
+          <h1>TOOLS and FEATURES
+            <!--section-->
+          </h1>
+          <ul>
             <!--sub-section-->
-					<li>Lost and Found</li>
-					<li>Submit a Complaint</li>
-					<li>Send us your Confessions and Experiences</li>
-					<li>Contact the School</li>
-				  </ul>
-				</div>
-				<div class="col">
-				  <h1>INFORMATION</h1>
-				  <ul>
-					<li>Location</li>
-					<li>Mission</li>
-					<li>Vision</li>
-					<li>Rules and the Student Handbook</li>
-				  </ul>
-				</div>
-      <div class="col">
-        <h1>BRUH</h1>
-        <ul>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        </ul>
-      </div>
-      <div class="col">
-        <h1>BRUH</h1>
-        <ul>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        </ul>
-      </div>
-      <div class="col">
-        <h1>BRUH</h1>
-        <ul>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        <li>BRUH</li>
-        </ul>
-      </div>
-      <div class="col social">
-        <h1>Socials</h1>
-        <ul>
-          <li><img src="facebook.svg" alt="FACEBOOK" width="32" style="width: 32px;"></li>
-					<li><img src="twitter.svg" alt="TWITTER" width="32" style="width: 32px;"></li>
+            <li>Lost and Found</li>
+            <li>Submit a Complaint</li>
+            <li>Send us your Confessions and Experiences</li>
+            <li>Contact the School</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>INFORMATION</h1>
+          <ul>
+            <li>Location</li>
+            <li>Mission</li>
+            <li>Vision</li>
+            <li>Rules and the Student Handbook</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>BRUH</h1>
+          <ul>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>BRUH</h1>
+          <ul>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>BRUH</h1>
+          <ul>
+            <li>BRUH</li>
+            <li>BRUH</li>
+            <li>BRUH</li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Socials</h1>
+          <ul>
+            <li><img src="facebook.svg" alt="FACEBOOK" width="32" style="width: 32px;"></li>
+            <li><img src="twitter.svg" alt="TWITTER" width="32" style="width: 32px;"></li>
 
-        </ul>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="clearfix"></div>
-      </div>
-      </div>
-      <!-- END OF FOOTER -->
-      <footer>
-        <center>  &copy; 2021 Integrated Developmental School </center>
-        </footer>
+    </div>
+    <!-- END OF FOOTER -->
+    <footer>
+      <center> &copy; 2021 Integrated Developmental School </center>
+    </footer>
 
 
 
@@ -279,14 +306,13 @@
 
 
     <div class="slider"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="app.js"></script>
-   
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="bruh.js"></script>
   </body>
+
 </html>
