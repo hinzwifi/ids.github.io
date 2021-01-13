@@ -138,6 +138,7 @@ body {
 }
 
 .read-more-button-home:hover {
+  cursor: pointer;
   opacity: 0.7;
 }
 
@@ -864,7 +865,10 @@ footer {
 }
 
 .nav-item a:hover {
-  color: #3498db;
+ 
+  color: white;
+  text-decoration: none;
+
 }
 
 /* SECTIONS */
