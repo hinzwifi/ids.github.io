@@ -138,6 +138,7 @@ body {
 }
 
 .read-more-button-home:hover {
+  color: black;
   cursor: pointer;
   opacity: 0.7;
   text-decoration:none;
@@ -863,13 +864,17 @@ footer {
   font-weight: 400;
   text-decoration: none;
   transition: color 0.3s ease-out;
+  padding: 15px;
 }
 
 .nav-item a:hover {
- 
+  background-color: rgb(5, 3, 3);
   color: white;
+ padding: 15px;
+  height:100%;
+  border-radius: 5px;
   text-decoration: none;
-
+ font-size: 100%;
 }
 
 /* SECTIONS */
@@ -884,7 +889,7 @@ footer {
 }
 
 #search-icon:hover {
-  color: #3498db;
+  color: white;
   cursor: pointer;
 }
 
@@ -892,7 +897,7 @@ footer {
   transform: translate(-35%);
   -webkit-transform: translate(-35%);
   transition: transform 0.7s ease-in-out;
-  color: #3498db;
+  color: #000000;
 }
 
 .no-search {
@@ -912,6 +917,7 @@ footer {
 .search-active {
   opacity: 1;
   z-index: 0;
+  margin-right: -12px;
 }
 
 input {
