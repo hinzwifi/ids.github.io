@@ -1025,13 +1025,13 @@ input {
     flex-direction: column;
     position: fixed;
     justify-content: start;
-    top: 50px;
+    top: 0px;
     background-color: #fff;
-    width: 50%;
-    height: calc(100vh - 55px);
+    width: 100%;
     transform: translate(-101%);
     text-align: center;
     overflow: hidden;
+    height: 100vh;
   }
 
   .navbar li {
@@ -1050,6 +1050,7 @@ input {
   .bar {
     display: block;
     cursor: pointer;
+    z-index: 888888;
   }
 
   .mobile-nav {
@@ -1090,4 +1091,13 @@ input {
   z-index: 9999;
   background: url("loading.gif") center no-repeat #000000;
 
+}
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
