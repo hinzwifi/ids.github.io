@@ -804,7 +804,7 @@ footer {
   /* Safari */
   position: sticky;
   top: 0;
-  background: linear-gradient(-45deg, #ee52d9, #E73C7E, #800000, #000000);
+  background: linear-gradient(-45deg, #ffc0cb, #800000);
   background-size: 400% 400%;
   -webkit-animation: gradbar 15s ease infinite;
   -moz-animation: gradbar 15s ease infinite;
@@ -814,7 +814,7 @@ footer {
 .grad-bar {
   width: 100%;
   height: 5px;
-  background: linear-gradient(-45deg, #ee52d9, #E73C7E, #800000, #000000);
+  background: linear-gradient(-45deg, #ffc0cb, #800000);
   background-size: 400% 400%;
   -webkit-animation: gradbar 15s ease infinite;
   -moz-animation: gradbar 15s ease infinite;
@@ -830,11 +830,11 @@ footer {
   align-items: center;
   height: 64px;
   overflow: hidden;
-  background: linear-gradient(-45deg, #ee52d9, #E73C7E, #800000, #000000);
+  background: linear-gradient(-45deg, #ffc0cb, #800000);
   background-size: 400% 400%;
-  -webkit-animation: gradbar 3s ease infinite;
-  -moz-animation: gradbar 3s ease infinite;
-  animation: gradbar 3s ease infinite;
+  -webkit-animation: gradbar 4s ease infinite;
+  -moz-animation: gradbar 4s ease infinite;
+  animation: gradbar 4s ease infinite;
 
 }
 
